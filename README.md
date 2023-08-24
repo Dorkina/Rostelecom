@@ -24,9 +24,10 @@ https://chromedriver.chromium.org/downloads (выбрать ту версию,ч
 Для того, чтобы запустить тесты, ввести в терминале: python -m pytest -m
 
 Содержание файлов:
-tests/test_auth_form - тестирование формы авторизации
-test/test_authorization - тестирование авторизации пользователя
-test/test_fogot_password - тестирование страницы восстановления пароля
-test/test_user_registration - тестирование регистрации нового пользователя
-calculated - вычисляемые параметры
-setting - Данные для заполнения полей
+- tests/test_auth_form - тестирование формы авторизации
+- test/test_authorization - тестирование авторизации пользователя
+- test/test_fogot_password - тестирование страницы восстановления пароля
+- test/test_user_registration - тестирование регистрации нового пользователя
+- test/test_other  - прочие тесты
+- calculated - вычисляемые параметры
+- setting - Данные для заполнения полей
